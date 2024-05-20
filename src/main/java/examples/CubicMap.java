@@ -47,7 +47,6 @@ public class CubicMap {
 
         UnloadImage(image);     // Unload cubesmap image from RAM, already uploaded to VRAM
 
-        SetCameraMode(camera, CAMERA_ORBITAL);  // Set an orbital camera mode
 
         SetTargetFPS(60);                       // Set our game to run at 60 frames-per-second
         //--------------------------------------------------------------------------------------
@@ -57,7 +56,7 @@ public class CubicMap {
         {
             // Update
             //----------------------------------------------------------------------------------
-            UpdateCamera(camera);              // Update camera
+            UpdateCamera(camera, CAMERA_ORBITAL);              // Update camera
             //----------------------------------------------------------------------------------
 
             // Draw

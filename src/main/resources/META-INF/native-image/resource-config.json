@@ -1,0 +1,11 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/services/java.time.zone.ZoneRulesProvider\\E"
+  }, {
+    "pattern":".*jniRaylib.*"
+  }, {
+    "pattern":".*jnijavacpp.*"
+  }]},
+  "bundles":[]
+}

@@ -1,0 +1,290 @@
+[
+{
+  "name":"com.raylib.Raylib"
+},
+{
+  "name":"com.raylib.Raylib$AudioCallback",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$AudioStream",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$AutomationEvent",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$AutomationEventList",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$BoneInfo",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$BoundingBox",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Camera2D",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Camera3D",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Color",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$FilePathList",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Font",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$GlyphInfo",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$GuiStyleProp",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Image",
+    "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$LoadFileDataCallback",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$LoadFileTextCallback",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Material",
+    "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$MaterialMap",
+    "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Matrix",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Matrix2x2",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Mesh",
+    "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Model",
+    "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$ModelAnimation",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Music",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$NPatchInfo",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$PhysicsBody",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$PhysicsManifoldData",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$PhysicsShape",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$PhysicsVertexData",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Ray",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$RayCollision",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Rectangle",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$RenderTexture",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$SaveFileDataCallback",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$SaveFileTextCallback",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Shader",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Sound",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Texture",
+    "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$TraceLogCallback",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Transform",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Vector2",
+    "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Vector3",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Vector4",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$VrDeviceInfo",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$VrStereoConfig",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$Wave",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$float16",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$float3",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$rAudioBuffer",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$rAudioProcessor",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$rlDrawCall",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$rlRenderBatch",
+  "unsafeAllocated": true
+},
+{
+  "name":"com.raylib.Raylib$rlVertexBuffer",
+  "unsafeAllocated": true
+},
+{
+  "name":"java.lang.NullPointerException"
+},
+{
+  "name":"java.lang.Object"
+},
+{
+  "name":"java.lang.RuntimeException"
+},
+{
+  "name":"java.lang.String"
+},
+{
+  "name":"java.lang.UnsatisfiedLinkError"
+},
+{
+  "name":"java.nio.Buffer"
+},
+{
+  "name":"java.nio.charset.Charset"
+},
+{
+  "name":"org.bytedeco.javacpp.BoolPointer"
+},
+{
+  "name":"org.bytedeco.javacpp.BooleanPointer"
+},
+{
+  "name":"org.bytedeco.javacpp.BytePointer"
+},
+{
+  "name":"org.bytedeco.javacpp.CLongPointer"
+},
+{
+  "name":"org.bytedeco.javacpp.CharPointer"
+},
+{
+  "name":"org.bytedeco.javacpp.DoublePointer"
+},
+{
+  "name":"org.bytedeco.javacpp.FloatPointer"
+},
+{
+  "name":"org.bytedeco.javacpp.IntPointer"
+},
+{
+  "name":"org.bytedeco.javacpp.Loader"
+},
+{
+  "name":"org.bytedeco.javacpp.Loader$Helper"
+},
+{
+  "name":"org.bytedeco.javacpp.LongPointer"
+},
+{
+  "name":"org.bytedeco.javacpp.Pointer"
+},
+{
+  "name":"org.bytedeco.javacpp.Pointer$NativeDeallocator"
+},
+{
+  "name":"org.bytedeco.javacpp.PointerPointer"
+},
+{
+  "name":"org.bytedeco.javacpp.ShortPointer"
+},
+{
+  "name":"org.bytedeco.javacpp.SizeTPointer"
+},
+{
+  "name":"org.bytedeco.javacpp.presets.javacpp",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]
