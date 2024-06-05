@@ -22,7 +22,7 @@ public class AudioRawStream {
     static float audioFrequency = 440.0f;
 
     // Previous value, used to test if sine needs to be rewritten, and to smoothly modulate frequency
-    float oldFrequency = 1.0f;
+    static float oldFrequency = 1.0f;
 
     // Index for audio rendering
     static float sineIdx = 0.0f;
@@ -76,11 +76,7 @@ public class AudioRawStream {
         Vector2 mousePosition = new Vector2().x(-100f).y(-100f);
 
 
-        // Cycles per second (hz)
-        float frequency = 440.0f;
 
-        // Previous value, used to test if sine needs to be rewritten, and to smoothly modulate frequency
-        float oldFrequency = 1.0f;
 
         // Cursor to read and copy the samples of the sine wave buffer
         int readCursor = 0;
@@ -189,8 +185,7 @@ public class AudioRawStream {
 
         // De-Initialization
         //--------------------------------------------------------------------------------------
-        //free(data);                 // Unload sine wave data
-        //free(writeBuf);             // Unload write buffer
+
 
         UnloadAudioStream(stream);   // Close raw audio stream and delete buffers from RAM
         CloseAudioDevice();         // Close audio device (music streaming is automatically stopped)
