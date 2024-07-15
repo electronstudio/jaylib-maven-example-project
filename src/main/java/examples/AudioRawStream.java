@@ -1,6 +1,5 @@
 package examples;
 
-
 import org.bytedeco.javacpp.Pointer;
 import org.bytedeco.javacpp.ShortPointer;
 
@@ -27,6 +26,22 @@ public class AudioRawStream {
     // Index for audio rendering
     static float sineIdx = 0.0f;
 
+    static AudioCallback audioCallback = new AudioCallback() {
+        public void call(Pointer p, int frames) {
+            ShortPointer d = new ShortPointer(p);
+
+            audioFrequency = frequency + (audioFrequency - frequency) * 0.95f;
+
+            float incr = audioFrequency / 44100.0f;
+
+            for (int i = 0; i < frames; i++) {
+                d.put(i, (short) (32000.0f * Math.sin(2 * PI * sineIdx)));
+                sineIdx += incr;
+                if (sineIdx > 1.0f) sineIdx -= 1.0f;
+            }
+        }
+    };
+
 
     //------------------------------------------------------------------------------------
 // Program main entry point
@@ -46,21 +61,8 @@ public class AudioRawStream {
         // Init raw audio stream (sample rate: 44100, sample size: 16bit-short, channels: 1-mono)
         AudioStream stream = LoadAudioStream(44100, 16, 1);
 
-        SetAudioStreamCallback(stream, new AudioCallback() {
-            public void call(Pointer p, int frames) {
-                ShortPointer d = new ShortPointer(p);
-
-                audioFrequency = frequency + (audioFrequency - frequency) * 0.95f;
-
-                float incr = audioFrequency / 44100.0f;
-
-                for (int i = 0; i < frames; i++) {
-                    d.put(i, (short) (32000.0f * Math.sin(2 * PI * sineIdx)));
-                    sineIdx += incr;
-                    if (sineIdx > 1.0f) sineIdx -= 1.0f;
-                }
-            }
-        });
+        // NOTE: MAKE SURE YOUR AUDIOCALLBACK DOES NOT GET GARBAGE COLLECTED
+        SetAudioStreamCallback(stream, audioCallback);
 
 //        // Buffer for the single cycle waveform we are synthesizing
 
