@@ -3,9 +3,7 @@ package examples;
 import org.bytedeco.javacpp.Pointer;
 import org.bytedeco.javacpp.ShortPointer;
 
-import static com.raylib.Jaylib.RAYWHITE;
-import static com.raylib.Jaylib.RED;
-import static com.raylib.Jaylib.DARKGRAY;
+import static com.raylib.Colors.*;
 import static com.raylib.Raylib.*;
 
 public class AudioRawStream {

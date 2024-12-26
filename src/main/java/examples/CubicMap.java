@@ -10,9 +10,7 @@ package examples; /*************************************************************
 ********************************************************************************************/
 
 
-import static com.raylib.Jaylib.*;
-import static com.raylib.Raylib.Vector2;
-import static com.raylib.Raylib.Vector3;
+import static com.raylib.Colors.*;
 import static com.raylib.Raylib.*;
 
 public class CubicMap {

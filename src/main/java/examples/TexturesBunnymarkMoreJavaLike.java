@@ -1,9 +1,9 @@
 package examples;
 
-import com.raylib.Jaylib;
-import com.raylib.Raylib;
 
-import static com.raylib.Jaylib.*;
+import static com.raylib.Raylib.*;
+import static com.raylib.Helpers.*;
+import static com.raylib.Colors.*;
 
 public class TexturesBunnymarkMoreJavaLike {
 
@@ -15,7 +15,7 @@ public class TexturesBunnymarkMoreJavaLike {
     static class Bunny {
         Vec2 position = new Vec2();
         Vec2 speed = new Vec2();
-        Raylib.Color color = new Raylib.Color();
+        Color color = new Color();
     }
 
     static class Vec2{
@@ -71,7 +71,7 @@ public class TexturesBunnymarkMoreJavaLike {
                     bunnies[bunniesCount].position.y = GetMousePosition().y();
                     bunnies[bunniesCount].speed.x = (float)(GetRandomValue(-250, 250)/60.0f);
                     bunnies[bunniesCount].speed.y = (float)(GetRandomValue(-250, 250)/60.0f);
-                    bunnies[bunniesCount].color = new Jaylib.Color(GetRandomValue(50, 240),
+                    bunnies[bunniesCount].color = newColor(GetRandomValue(50, 240),
                             GetRandomValue(80, 240),
                             GetRandomValue(100, 240), 255 );
                     bunniesCount++;

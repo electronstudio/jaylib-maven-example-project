@@ -5,13 +5,7 @@ import examples.RLights.Light;
 import org.bytedeco.javacpp.FloatPointer;
 
 
-import static com.raylib.Jaylib.RED;
-import static com.raylib.Jaylib.YELLOW;
-import static com.raylib.Jaylib.GREEN;
-import static com.raylib.Jaylib.BLUE;
-import static com.raylib.Jaylib.WHITE;
-import static com.raylib.Jaylib.RAYWHITE;
-import static com.raylib.Jaylib.DARKGRAY;
+import static com.raylib.Colors.*;
 import static com.raylib.Raylib.*;
 import static examples.RLights.Light.MAX_LIGHTS;
 

@@ -1,5 +1,4 @@
-import static com.raylib.Jaylib.RAYWHITE;
-import static com.raylib.Jaylib.VIOLET;
+import static com.raylib.Colors.*;
 import static com.raylib.Raylib.*;
 
 public class Main {
